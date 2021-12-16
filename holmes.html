@@ -5,8 +5,19 @@
     <meta charset="UTF-8">
     <title>Sherlock Holmes</title>
 
-    <style>
-
+    <!--Instead of using css internally, I link the css template using link tag and specify its relationship via rel-->
+    <link rel="stylesheet" href="css_files/holmes-style.css">
+    <!--If I did not use css to design my webpage, I would have had to use <style> tag, or I would have needed to
+    specify each styl attribute in every distinct tag-->
+    <!--
+        <style>
+        body {
+            background-color: #FAEDC6;
+        }
+        hr {
+            background-color: #3E8E7E;
+            size: 3px;
+        }
         .center {
             display: block;
             margin-left: auto;
@@ -18,11 +29,12 @@
             list-style-position: inside;
         }
     </style>
+    -->
 
 </head>
 
 <body>
-    <hr size="3" noshade> <!-- Draws a horizontal line along the screen -->
+    <hr noshade> <!-- Draws a horizontal line along the screen -->
     <center> <!-- Center tag is not often used as you may guess from it being crossed out since tags can be centered using css -->
         <h1>The Adventures of <br>Sherlock Holmes</h1> <!--line brake tag can be used inside another tag to, for example, continue from a new line -->
         <br> <!-- Line break tag, the line with this tag is left empty which allows us to create an empty space between lines-->
@@ -30,7 +42,7 @@
         <br>
         <h2>Sir Arthur Conan Doyle</h2>
     </center>
-    <hr size="3" noshade>
+    <hr noshade>
 
     <h2 align="center">Contents</h2>
     <ol type="I">
@@ -39,6 +51,7 @@
         <li><a href="https://en.wikipedia.org/wiki/A_Case_of_Identity">A Case of Identity</a></li>
     </ol>
     <br>
+    <!--<hr class="dotted">-->
     <center>
         <h3>For-word</h3>
         <p>

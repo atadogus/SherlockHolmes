@@ -1,0 +1,42 @@
+body {
+    background-color: #FAEDC6;
+}
+a:hover{ /*:hover is a pseudo class */
+    color: gold;
+    /*
+    When the mouse is over the link, the color of it should change to gold
+    */
+}
+
+hr :not(.dotted) {
+    /* :not() command allows you to exclude the specified class, id or tag from implementing the css.
+    In this case, all <hr> tags that do not have class="dotted" attribute will implement the below specified
+    attributes
+    */
+    background-color: #3E8E7E;
+    height: 2px;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.dotted {
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    border-color: #3E8E7E;
+    width: 5%;
+
+    /*
+    size: or height attributes do not work in adjusting the size of the dots. In order to change the size of the dots,
+    I needed to use border-width since I collapsed the dimensions of the horizontal line, hr, to 1d when I used
+    border-style: none and border-top-style: dotted, which in turn left me only with width attribute
+    */
+}

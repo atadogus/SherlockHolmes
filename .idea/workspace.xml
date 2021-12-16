@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4de315b5-34c4-492f-a7f9-05cc585af656" name="Changes" comment="Will try to host this webpage" />
+    <list default="true" id="4de315b5-34c4-492f-a7f9-05cc585af656" name="Changes" comment="Will try to host this webpage">
+      <change afterPath="$PROJECT_DIR$/css_files/holmes-style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/holmes.html" beforeDir="false" afterPath="$PROJECT_DIR$/holmes.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +15,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -32,6 +37,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -49,8 +55,17 @@
       <updated>1639563370223</updated>
       <workItem from="1639563371564" duration="48000" />
       <workItem from="1639563540683" duration="7876000" />
-      <workItem from="1639660860100" duration="1766000" />
+      <workItem from="1639660860100" duration="2406000" />
+      <workItem from="1639664776905" duration="4712000" />
     </task>
+    <task id="LOCAL-00001" summary="Will try to host this webpage">
+      <created>1639662687025</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639662687025</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
